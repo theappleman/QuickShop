@@ -90,6 +90,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -97,6 +102,7 @@
     <PostBuildEvent>mkdir $(TargetDir)\QuickShop
 copy /y $(TargetPath) $(TargetDir)\QuickShop
 copy /y $(TargetDir)\Info.json $(TargetDir)\QuickShop
+copy /y $(TargetDir)\README.md $(TargetDir)\QuickShop
 del QuickShop.zip
 powershell.exe -nologo -noprofile -command "&amp; { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('$(TargetDir)\QuickShop', '$(TargetDir)\QuickShop.zip', [System.IO.Compression.CompressionLevel]::Optimal, $true) }"</PostBuildEvent>
   </PropertyGroup>
