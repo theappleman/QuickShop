@@ -41,6 +41,7 @@ namespace QuickShop
         {
             var id = GameScript.Get().GetPartMouseOver().GetID();
             if (id == null) return null;
+            if (id.StartsWith("t_")) id = id.Substring(2);
             if (handled == "KeyCode.JoystickButton8") return id;
 
             var possibleTunedId = "t_" + id;
