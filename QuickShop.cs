@@ -26,8 +26,11 @@ namespace QuickShop
         [HarmonyPostfix]
         public static void Postfix()
         {
-            if (!Input.GetKeyUp(KeyCode.B)) return;
+            string handled = "";
+            if (Input.GetKeyUp(KeyCode.B)) handled = "KeyCode.B";
+            if (Input.GetKeyUp(KeyCode.JoystickButton9)) handled = "KeyCode.JoystickButton9";
 
+            if (handled == "") return;
             var id = IdOfSelectedItem();
             if (id == null) return;
             BuyItem(id);
