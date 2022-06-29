@@ -28,18 +28,21 @@ namespace QuickShop
         {
             string handled = "";
             if (Input.GetKeyUp(KeyCode.B)) handled = "KeyCode.B";
+            if (Input.GetKeyUp(KeyCode.JoystickButton8)) handled = "KeyCode.JoystickButton8";
             if (Input.GetKeyUp(KeyCode.JoystickButton9)) handled = "KeyCode.JoystickButton9";
 
             if (handled == "") return;
-            var id = IdOfSelectedItem();
+            var id = IdOfSelectedItem(handled);
             if (id == null) return;
             BuyItem(id);
         }
 
-        private static string IdOfSelectedItem()
+        private static string IdOfSelectedItem(string handled)
         {
             var id = GameScript.Get().GetPartMouseOver().GetID();
             if (id == null) return null;
+            if (handled == "KeyCode.JoystickButton8") return id;
+
             var possibleTunedId = "t_" + id;
             if (IdExists(possibleTunedId)) 
             {
