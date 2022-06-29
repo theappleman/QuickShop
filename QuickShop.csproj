@@ -32,29 +32,53 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony12">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityModManager\0Harmony12.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityModManager\0Harmony12.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityModManager\0Harmony12.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityModManager\0Harmony12.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\Assembly-CSharp.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.UI.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityModManager">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
+      <HintPath>C:\Program Files\Epic Games\CarMechanicSim2018\cms2018_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
       <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2018\cms2018_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
+      <HintPath>D:\Epic\CarMechanicSim2018\cms2018_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
